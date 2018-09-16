@@ -1,0 +1,61 @@
+[1mdiff --git a/index.php b/index.php[m
+[1mindex e69de29..55568fe 100644[m
+[1m--- a/index.php[m
+[1m+++ b/index.php[m
+[36m@@ -0,0 +1,56 @@[m
+[32m+[m[32m<!DOCTYPE html>[m[41m [m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m   <head>[m
+[32m+[m[32m    <meta name="description" content="Business Site - Responsive Business Template" />[m
+[32m+[m[32m    <link rel="profile" href="http://gmpg.org/xfn/11">[m
+[32m+[m[32m    <meta name="keywords" content="Responsive Business Template" />[m
+[32m+[m[32m    <meta name="author" content="Promenade Themes" />[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />[m
+[32m+[m[32m    <meta charset="utf-8">[m
+[32m+[m[32m    <meta name="format-detection" content="telephone=no">[m
+[32m+[m[32m    <meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+[32m+[m[41m      [m
+[32m+[m[32m      <title>PHP Login System</title>[m
+[32m+[m
+[32m+[m[32m    <!-- UIkit CSS -->[m
+[32m+[m[32m    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.14/css/uikit.min.css" />[m
+[32m+[m
+[32m+[m[32m   </head>[m
+[32m+[m
+[32m+[m[32m    <body>[m
+[32m+[m
+[32m+[m[32m        <div class="uk-section uk-container">[m
+[32m+[m[32m            <div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid>[m
+[32m+[m[32m              <form class="uk-form-stacked js-login">[m
+[32m+[m
+[32m+[m[32m                  <div class="uk-margin">[m
+[32m+[m[32m                      <label class="uk-form-label" for="form-stacked-text">Email</label>[m
+[32m+[m[32m                      <div class="uk-form-controls">[m
+[32m+[m[32m                          <input class="uk-input" id="form-stacked-text" type="email" required="required" placeholder="email@email.com">[m
+[32m+[m[32m                      </div>[m
+[32m+[m[32m                  </div>[m
+[32m+[m
+[32m+[m[32m                  <div class="uk-margin">[m
+[32m+[m[32m                      <label class="uk-form-label" for="form-stacked-text">Password</label>[m
+[32m+[m[32m                      <div class="uk-form-controls">[m
+[32m+[m[32m                          <input class="uk-input" id="form-stacked-text" type="password" required="required" placeholder="Your Password">[m
+[32m+[m[32m                      </div>[m
+[32m+[m[32m                  </div>[m
+[32m+[m
+[32m+[m[32m                  <div class="uk-margin">[m
+[32m+[m[32m                      <button class="uk-button uk-button-default" type="submit">Login</button>[m
+[32m+[m[32m                  </div>[m
+[32m+[m
+[32m+[m[32m              </form>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m
+[32m+[m[32m      <!-- JQuery -->[m
+[32m+[m[32m      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>[m
+[32m+[m[32m      <!-- UIkit JS -->[m
+[32m+[m[32m      <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.14/js/uikit.min.js"></script>[m
+[32m+[m[32m      <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.14/js/uikit-icons.min.js"></script>[m
+[32m+[m
+[32m+[m[32m    </body>[m
+[32m+[m
+[32m+[m[32m</html>[m

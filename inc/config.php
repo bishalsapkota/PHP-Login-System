@@ -7,6 +7,11 @@
 
 	//Our config is below
 
+	//Include the DB.php filr;
+	include_once "classes/DB.php";
+
+	$con = DB::getConnection();
+
 
 ?>
 
