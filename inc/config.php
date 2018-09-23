@@ -6,9 +6,13 @@
 	}
 
 	//Our config is below
+	// Allow Errors
+	error_reporting(-1);
+	ini_set('display_errors', 'On');
 
 	//Include the DB.php filr;
 	include_once "classes/DB.php";
+	include_once "classes/filter.php";
 
 	$con = DB::getConnection();
 
