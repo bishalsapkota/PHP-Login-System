@@ -12,7 +12,7 @@
         $email = Filter::String( $_POST['email'] );
         $password = $_POST['password'];
 
-        $user_found = FindUser($con, $email, true);
+        $user_found = User::Find($email, true);
         
         if($user_found) {
             // User exists, try and sign them in
@@ -23,7 +23,7 @@
             if(password_verify($password, $hash)) {
                 // User is signed in
                 $return['redirect'] = 'dashboard.php';
-                
+
                 $_SESSION['user_id'] = $user_id;
             } else {
                 // Invalid user email/password combo
