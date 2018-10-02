@@ -34,6 +34,13 @@
 			}
 		}
 
+		/* public function setEmail($new_email) {
+			// echo $this->email;  // The Current email address
+			// echo $this->user_id; // The existing user_id
+
+			// $this->con->prepare("....")
+		} */
+
 		
 		public static function Find($email, $return_assoc = false){
 
